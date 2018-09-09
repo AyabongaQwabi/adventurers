@@ -6,3 +6,11 @@ The learning outcome oif this is to understand the difference acompanied by pros
 and Client Side Rendering.
 
 The project is a collection of illustration shared on facebbook by South African Illustrators.
+
+```
+npm install
+
+npm start
+```
+
+that's all you need to do to run it
