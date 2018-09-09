@@ -17,16 +17,19 @@ export const Post = props => {
                 font-family: Futura;
             }
             .post .post-image{
-                height: 400px;
-                width: 400px;
+                height: 200px;
+                width: 200px;
                 display: inline-block;
+                -webkit-filter: grayscale(1);
+                filter: grayscale(1);
+                transform: sclae(1.1);
             }
             .post .post-image img{
                 max-width: 100%;
             }
             .post .post-image:hover{
-                -webkit-filter: grayscale(1);
-                filter: grayscale(1);
+                -webkit-filter: grayscale(0);
+                filter: grayscale(0);
                 transition: filter .4s linear;
 
             }
@@ -35,7 +38,6 @@ export const Post = props => {
                 width: 400px;
                 display: inline-block;
                 vertical-align:top;
-                margin-top: 10%;
                 padding-left: 10%;
                 color: #000;
             }
@@ -43,9 +45,9 @@ export const Post = props => {
                 margin-top: 0px;
                 margin-bottom: 5px;
             }
-            .post .post-user h6{
-                margin-left: 1%;
-                margin: 0px;
+            .post .post-user h4{
+                padding:0px;
+                margin:0px;
             }
             .post .post-user h6:before{
                 content:'-';
@@ -76,10 +78,12 @@ export const MultiPost = props => {
                 font-family: Futura;
             }
             .post .post-image{
-                height: 400px;
-                width: 400px;
+                height: 200px;
+                width: 200px;
                 display: inline-block;
                 margin-right:10px;
+                -webkit-filter: grayscale(1);
+                filter: grayscale(1);
             }
             .post .post-image img{
                 max-width: 49%;
@@ -87,8 +91,9 @@ export const MultiPost = props => {
 
             }
             .post .post-image:hover{
-                -webkit-filter: grayscale(1);
-                filter: grayscale(1);
+                -webkit-filter: grayscale(0);
+                filter: grayscale(0);
+                transform: sclae(1.1);
                 transition: filter .4s linear;
 
             }
@@ -97,7 +102,6 @@ export const MultiPost = props => {
                 width: 400px;
                 display: inline-block;
                 vertical-align:top;
-                margin-top: 10%;
                 padding-left: 10%;
                 color: #000;
             }
@@ -105,9 +109,9 @@ export const MultiPost = props => {
                 margin-top: 0px;
                 margin-bottom: 5px;
             }
-            .post .post-user h6{
-                margin-left: 1%;
-                margin: 0px;
+            .post .post-user h4{
+                padding:0px;
+                margin:0px;
             }
             .post .post-user h6:before{
                 content:'-';

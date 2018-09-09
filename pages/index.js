@@ -14,11 +14,10 @@ const home = () =>(
             />
 
             <Post 
-                image='/static/s1.jpg' 
-                title='Tumi Sibambo' 
-                description="
-                I am honoured to have been entrusted with this project. Thank you Mr Motaung for your awesome support all the way from #Kimberly. This was the biggest #sibamboportraits #masterpiece #fineliner #pen #portrait #drawing on #A1paper by far. #universalart #fineart"
-                username='@SibamboPotraits' 
+                image='/static/chris.jpg' 
+                title='Christopher Junior Masuabi' 
+                description="Christopher the chuckle bberg  #ChrisDesign"
+                username='@chris' 
             />
           
             <MultiPost 
