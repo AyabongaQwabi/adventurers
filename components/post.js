@@ -20,19 +20,11 @@ export const Post = props => {
                 height: 200px;
                 width: 200px;
                 display: inline-block;
-                -webkit-filter: grayscale(1);
-                filter: grayscale(1);
-                transform: sclae(1.1);
             }
             .post .post-image img{
                 max-width: 100%;
             }
-            .post .post-image:hover{
-                -webkit-filter: grayscale(0);
-                filter: grayscale(0);
-                transition: filter .4s linear;
-
-            }
+            
             .post .post-user{
                 height: 100px;
                 width: 400px;
@@ -61,6 +53,7 @@ export const Post = props => {
 
 export const MultiPost = props => {
     const { images, username, title, description  } = props
+    console.log(props)
     return (
         <div className='post'>
             <div className='post-image'>
@@ -82,19 +75,10 @@ export const MultiPost = props => {
                 width: 200px;
                 display: inline-block;
                 margin-right:10px;
-                -webkit-filter: grayscale(1);
-                filter: grayscale(1);
             }
             .post .post-image img{
                 max-width: 49%;
                 margin:1px;
-
-            }
-            .post .post-image:hover{
-                -webkit-filter: grayscale(0);
-                filter: grayscale(0);
-                transform: sclae(1.1);
-                transition: filter .4s linear;
 
             }
             .post .post-user{
