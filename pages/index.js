@@ -28,7 +28,24 @@ const feeds = [{
         username: '@wayway_sa' ,
         tags:['all','retro'] ,
         type:'multi',
-    }]
+    },
+    {
+        image: '/static/images/peace.jpg' ,
+        title: 'Rob Crawford' ,
+        description: "Peace In Our Time.",
+        username: '@mrgrimsley_' ,
+        tags:['all','mural'] ,
+        type:'single',
+    },
+    {
+        image: '/static/images/mama.jpg' ,
+        title: 'Baba Tjeko' ,
+        description: "WOMAN OF STRENGTH.",
+        username: 'Zondeni Sobukwe' ,
+        tags:['all','black-and-white'] ,
+        type:'single',
+    }
+]
 
 
 class home extends Component {
