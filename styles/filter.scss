@@ -1,13 +1,19 @@
 .filter {
-    padding:20px 100px;
+    padding: 20px 100px;
     text-align: center;
     font-family: Futura;
-    background: #222;
+    background: linear-gradient(to top right, #E91E63, #673AB7);
     height: 50px;
     width: 100%;
-    color: #fff;
     margin: 0px 200px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+
     p{
         color:#fff;
+    }
+    .tag {
+       margin: 10px; 
+       color: #fff;
     }
 }
