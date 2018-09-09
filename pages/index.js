@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Header from '../components/header';
-import Post from '../components/post';
-
+import { Post, MultiPost } from '../components/post';
+const retroImages = ['/static/m1.jpg','/static/m2.jpg','/static/m3.jpg','/static/m4.jpg']
 const home = () =>(
     <div>
         <Header title='South African illustrations' subtitle='as seen on facebook' />
@@ -14,12 +14,20 @@ const home = () =>(
             />
 
             <Post 
-                image='/static/sibbambo.jpg' 
+                image='/static/s1.jpg' 
                 title='Tumi Sibambo' 
-                description="The kid"
+                description="
+                I am honoured to have been entrusted with this project. Thank you Mr Motaung for your awesome support all the way from #Kimberly. This was the biggest #sibamboportraits #masterpiece #fineliner #pen #portrait #drawing on #A1paper by far. #universalart #fineart"
                 username='@SibamboPotraits' 
             />
           
+            <MultiPost 
+                images={retroImages}
+                title='Ntsako Terence Maluleke' 
+                description="Limited Edition WAY WAY Iconic Collection prints"
+                username='@wayway_sa' 
+            />
+
             <style jsx>{`
                 .adventure{
                     margin:0px 200px;
